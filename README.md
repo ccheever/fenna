@@ -139,14 +139,14 @@ The palette panel shows each SVG color and its nearest Castle palette match, so 
 
 ```bash
 # Install dependencies
-npm install
+bun install
 
 # Set up your Recraft API key
 cp .env.example .env
 # Edit .env and add your RECRAFT_API_TOKEN
 
 # Start dev server
-npx expo start --web
+bunx expo start --web
 ```
 
 Get a Recraft API key at [app.recraft.ai/profile/api](https://app.recraft.ai/profile/api).
